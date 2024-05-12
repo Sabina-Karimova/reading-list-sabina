@@ -5,7 +5,8 @@ Welcome to our frontend developer hiring process! We're excited to see what you 
 ## Instructions:
 
 ### Setup:
-- Clone this repository to your local machine.
+- Fork this repository to your account.
+- Clone the repository to your local machine.
 - Create a new branch for your work. Please name the branch something descriptive like `reading-list-yourname`.
 
 ### Reading List Requirements:
@@ -24,7 +25,7 @@ Welcome to our frontend developer hiring process! We're excited to see what you 
 
 ### Submission:
 - Once you've completed the assignment, push your branch to this repository.
-- Create a pull request (PR) to merge your branch into the `main` branch.
+- Create a pull request (PR) to merge your branch into the `main` branch of this repo.
 - In the PR description, provide any instructions necessary for running your reading list application locally (if different from opening an HTML file in a browser).
 - Feel free to include any additional comments or explanations about your implementation choices.
 
