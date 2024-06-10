@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    color: #007bff;
+}
+
+.navbar-custom {
+    background-color: #0044cc !important; /* Blue background color */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #ffffff !important; /* White text color */
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ffcc00 !important; /* Yellow text color on hover */
+}
+.book-list-header {
+    color: green;
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.book-list-container {
+    color: green;
+    background-color: #0099ff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.book-list-main {
+    color: green;
+    background-color: #2200ff;
+    padding: 20px;
+    border-radius: 8px;
+}
