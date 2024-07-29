@@ -1,0 +1,39 @@
+/* src/components/BookList.css */
+.card {
+    margin: 5px;
+  }
+  .card-img-top {
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    height: 60%; /* Set a fixed height or adjust as needed */
+    width: 100%; /* Ensures the image width matches the card width */
+  }
+
+  .container {
+    padding-top: 20px;
+  }
+  
+  .book-list-header {
+    color: green;
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.book-list-container {
+    color: green;
+    background-color: #0099ff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+
+.book-list-main {
+    color: green;
+    background-color: #2200ff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 100%;
+    width: 100%;
+}

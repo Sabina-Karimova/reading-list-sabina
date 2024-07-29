@@ -1,46 +1,70 @@
-# Frontend Developer Take-Home Assignment: Reading List Application
+# Getting Started with Create React App
 
-Welcome to our frontend developer hiring process! We're excited to see what you can do. For this take-home assignment, we'd like you to build a reading list application using HTML, CSS, and JavaScript. This will help us gauge your frontend development skills, including your ability to work with DOM manipulation, event handling, and API integration.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Instructions:
+## Available Scripts
 
-### Setup:
-- Fork this repository to your account.
-- Clone the repository to your local machine.
-- Create a new branch for your work. Please name the branch something descriptive like `reading-list-yourname`.
+In the project directory, you can run:
 
-### Reading List Requirements:
-- Create a web page that displays a list of books.
-- Each book should display at least its title, author(s), and a button indicating whether it has been read or not.
-- Implement functionality to toggle the read status of each book when its corresponding button is clicked.
-- You can hardcode the initial list of books in your code or (better) fetch them from an external API like [Open Library API](https://openlibrary.org/dev/docs/api/subjects). 
+### `npm start`
 
-### Implementation Guidelines:
-- Use HTML for the structure of the page.
-- Use CSS for styling the reading list and any other elements as you see fit. You can use a CSS framework if you prefer.
-- Use Vanilla JavaScript for implementing reading list logic, handling user input, and updating the DOM.
-- Ensure the reading list is visually appealing and easy to use.
-- Make sure your code is well-structured, readable, and commented where necessary.
-- If you choose to fetch data from an API, handle errors gracefully and provide appropriate feedback to the user.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Submission:
-- Once you've completed the assignment, push your branch to this repository.
-- Create a pull request (PR) to merge your branch into the `main` branch of this repo.
-- In the PR description, provide any instructions necessary for running your reading list application locally (if different from opening an HTML file in a browser).
-- Feel free to include any additional comments or explanations about your implementation choices.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Deadline:
-- Please submit your completed assignment within [specify deadline here]. Let us know if you need an extension.
+### `npm test`
 
-## Evaluation Criteria:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- Functionality: Does the reading list display correctly? Can users toggle the read status of books and add new books via the form?
-- Code Quality: Is the code well-structured, readable, and maintainable? Are best practices followed?
-- UI/UX: Is the reading list interface intuitive and visually appealing? Does it provide clear feedback to the user?
-- API Integration (if applicable): Are books fetched from the API correctly? Are errors handled gracefully?
+### `npm run build`
 
-We're looking forward to seeing your reading list application! If you have any questions or need clarification on anything, don't hesitate to reach out.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Happy coding!
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-*(this assignment was written by ChatGPT)*
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
